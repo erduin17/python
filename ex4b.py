@@ -1,11 +1,11 @@
-#https://www.geeksforgeeks.org/turtle-programming-python/
+#ex4b em
 import turtle  #Inside_Out
-w = turtle.Screen()
-w.bgcolor("white")
+t = turtle.Screen()
+t.bgcolor("white")
 t = turtle.Turtle()
 t.color("#1A1A1A")
 t.pensize(10)
-t.speed(1)
+t.speed(10)
 
 
 turtle.setposition(0,0)
@@ -37,3 +37,4 @@ t.circle(50)
 
 
 holdit = input();
+
