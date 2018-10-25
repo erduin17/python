@@ -5,7 +5,7 @@ t.bgcolor("white")
 t = turtle.Turtle()
 t.color("#1A1A1A")
 t.pensize(10)
-t.speed(10)
+t.speed(0)
 
 
 turtle.setposition(0,0)
@@ -35,6 +35,8 @@ t.pendown()
 t.color("#FF0000")
 t.circle(50)
 
-
-holdit = input();
-
+t.penup
+t.setposition(200, 0)
+t.pendown
+t.dot(0)
+turtle.mainloop()
